@@ -1,0 +1,33 @@
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.Image-movies {
+    display:flex;
+    columns: 4;
+
+
+    gap:16px;
+    padding:16px;
+} 
+
+.img {
+    width: auto; 
+    height: 5px;
+}
+
+.title{
+    color: #00FF00;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .Image-movies {
+        --row-height: 200px;
+        --num-cols: 2;
+    }
+}
